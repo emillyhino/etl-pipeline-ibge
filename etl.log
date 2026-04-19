@@ -1,0 +1,22 @@
+2026-04-19 20:31:58.583 | INFO     | __main__:<module>:143 - ==================================================
+2026-04-19 20:31:58.583 | INFO     | __main__:<module>:144 - INICIANDO PIPELINE ETL — IBGE MUNICÍPIOS
+2026-04-19 20:31:58.583 | INFO     | __main__:<module>:145 - ==================================================
+2026-04-19 20:31:58.583 | INFO     | __main__:extract:14 - Iniciando extração de dados da API do IBGE...
+2026-04-19 20:32:00.415 | INFO     | __main__:extract:20 - Municípios extraídos: 5571
+2026-04-19 20:32:04.306 | INFO     | __main__:extract:26 - Dados populacionais extraídos com sucesso
+2026-04-19 20:32:04.336 | INFO     | __main__:transform:33 - Iniciando transformação dos dados...
+2026-04-19 20:32:04.406 | ERROR    | __main__:<module>:154 - Erro no pipeline: 'NoneType' object is not subscriptable
+2026-04-19 20:32:50.033 | INFO     | __main__:<module>:143 - ==================================================
+2026-04-19 20:32:50.033 | INFO     | __main__:<module>:144 - INICIANDO PIPELINE ETL — IBGE MUNICÍPIOS
+2026-04-19 20:32:50.043 | INFO     | __main__:<module>:145 - ==================================================
+2026-04-19 20:32:50.043 | INFO     | __main__:extract:14 - Iniciando extração de dados da API do IBGE...
+2026-04-19 20:32:58.738 | INFO     | __main__:extract:20 - Municípios extraídos: 5571
+2026-04-19 20:33:01.459 | INFO     | __main__:extract:26 - Dados populacionais extraídos com sucesso
+2026-04-19 20:33:01.465 | INFO     | __main__:transform:33 - Iniciando transformação dos dados...
+2026-04-19 20:33:01.623 | INFO     | __main__:transform:76 - Registros após transformação: 5570
+2026-04-19 20:33:01.627 | INFO     | __main__:transform:77 - Estados únicos: 27
+2026-04-19 20:33:01.627 | INFO     | __main__:transform:78 - Municípios únicos: 5570
+2026-04-19 20:33:01.627 | INFO     | __main__:load:85 - Carregando dados no banco ibge_populacao.db...
+2026-04-19 20:33:01.738 | INFO     | __main__:load:99 - Carga concluída! 5570 registros no banco.
+2026-04-19 20:33:01.738 | INFO     | __main__:analisar:104 - Executando análises pós-carga...
+2026-04-19 20:33:01.762 | SUCCESS  | __main__:<module>:152 - Pipeline finalizado com sucesso!
